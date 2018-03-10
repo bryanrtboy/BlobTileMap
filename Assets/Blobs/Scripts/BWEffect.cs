@@ -33,7 +33,7 @@ public class BWEffect : MonoBehaviour
     public RenderTexture m_source;
     [Tooltip("The Rendertexture used by the Material visible to the MainCamera")]
     public RenderTexture m_destination;
-    public RandomTiles m_tileMaker;
+    public RuledTileMaker m_tileMaker;
 
     private Material m_material;
 
@@ -62,7 +62,7 @@ public class BWEffect : MonoBehaviour
         m_material.SetFloat("_threshold", m_threshold);
         Graphics.Blit(m_source, m_destination, m_material);
         if (m_tileMaker != null)
-            m_tileMaker.SetRandomTiles();
+            m_tileMaker.SetRandomRuleTiles();
     }
 
 }

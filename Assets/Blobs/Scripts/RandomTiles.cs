@@ -32,7 +32,7 @@ namespace UnityLibary
             {
                 m_isTileMapCreated = true;
                 Invoke("RandomTileMap", 2);
-                //InvokeRepeating("SetRandomTiles", 3, 1);
+                InvokeRepeating("SetRandomTiles", 3, .2f);
             }
         }
 
@@ -111,6 +111,7 @@ namespace UnityLibary
             }
             RenderTexture.active = currentActiveRT;
         }
+
     }
 
 }
