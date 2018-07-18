@@ -58,10 +58,9 @@ public class RuledTileMaker : MonoBehaviour
         }
     }
 
+    //This runs after m_source has a size (web cam is being read), it only runs one time...
     void RandomRuleTileMap()
     {
-
-
         // validation
         if (ruleTile == null)
         {
@@ -98,9 +97,10 @@ public class RuledTileMaker : MonoBehaviour
         {
             map = gameObject.AddComponent<Tilemap>();
         }
-
+        //Make a texture2D from the render texture
         tex = new Texture2D(m_source.width, m_source.height, TextureFormat.ARGB32, false, true);
 
+        //Make all of the obstacle objects to cover the entire grid
         Invoke("SetupObstacles", 3);
 
     }
@@ -145,12 +145,12 @@ public class RuledTileMaker : MonoBehaviour
         }
     }
 
+    //Make an obstacle for each position in the tilemap
     void SetupObstacles()
     {
         obstacleDictionary = new Dictionary<Vector3Int, GameObject>();
         foreach (var position in map.cellBounds.allPositionsWithin)
         {
-
             Vector3 pos = new Vector3(position.x, 0, position.y);
             GameObject g = Instantiate(m_obstaclePrefab, pos, Quaternion.identity);
             obstacleDictionary.Add(position, g);

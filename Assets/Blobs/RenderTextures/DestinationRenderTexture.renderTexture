@@ -3,7 +3,7 @@
 --- !u!84 &8400000
 RenderTexture:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: DestinationRenderTexture
   m_ImageContentsHash:
@@ -11,8 +11,8 @@ RenderTexture:
     Hash: 00000000000000000000000000000000
   m_ForcedFallbackFormat: 4
   m_DownscaleFallback: 0
-  m_Width: 64
-  m_Height: 36
+  m_Width: 32
+  m_Height: 18
   m_AntiAliasing: 1
   m_DepthFormat: 1
   m_ColorFormat: 0

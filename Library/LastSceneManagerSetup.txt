@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Blobs/SampleScene.unity
+- path: Assets/Blobs/3DSampleScene.unity
   isLoaded: 1
   isActive: 1
