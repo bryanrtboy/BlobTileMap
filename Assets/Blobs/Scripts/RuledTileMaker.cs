@@ -9,7 +9,6 @@
 // https://forum.unity3d.com/threads/update-july-2017.484397/
 
 using UnityEngine;
-#if UNITY_2017_2_OR_NEWER
 using UnityEngine.Tilemaps;
 using UnityLibary;
 using System.Collections;
@@ -24,8 +23,8 @@ public class RuledTileMaker : MonoBehaviour
     public GameObject m_obstaclePrefab;
     public int m_obstacleCount;
 
-
-    public RuleTile ruleTile;
+    //public RuleTile ruleTile;
+    public TileBase ruleTile;
 
     private bool m_isTileMapCreated = false;
     private Texture2D tex;
@@ -171,14 +170,3 @@ public class RuledTileMaker : MonoBehaviour
 
 
 }
-
-
-#else
-public class RandomTiles : MonoBehaviour
-{
-    public void Start()
-    {
-        Debug.LogWarning("This version of unity doesnt support UnityEngine.Tilemaps");
-    }
-}
-#endif

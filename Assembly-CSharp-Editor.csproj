@@ -53,24 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tilemap\Brushes\Coordinate Brush\Scripts\Editor\CoordinateBrush.cs" />
-     <Compile Include="Assets\Tilemap\Brushes\GameObject Brush\Scripts\Editor\GameObjectBrush.cs" />
-     <Compile Include="Assets\Tilemap\Brushes\Line Brush\Scripts\Editor\LineBrush.cs" />
-     <Compile Include="Assets\Tilemap\Brushes\Prefab Brush\Scripts\Editor\PrefabBrush.cs" />
-     <Compile Include="Assets\Tilemap\Brushes\Random Brush\Scripts\Editor\RandomBrush.cs" />
-     <Compile Include="Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\Editor\TintBrushSmooth.cs" />
-     <Compile Include="Assets\Tilemap\Brushes\Tint Brush\Scripts\Editor\TintBrush.cs" />
-     <Compile Include="Assets\Tilemap\Destructible\Scripts\Editor\DestructibleEditor.cs" />
      <Compile Include="Assets\Tilemap\Editor\PreviewUtil.cs" />
      <Compile Include="Assets\Tilemap\Rule Tiles\Scripts\Editor\RuleTileEditor.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/bryan/Documents/Git/BlobTileMapGenerator/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/bryan/Documents/Git/BlobTileMapGenerator/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/bryan/Documents/Git/BlobTileMapGenerator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>/Users/bryan/Documents/Git/BlobTileMapGenerator/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/bryan/Documents/Git/BlobTileMapGenerator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

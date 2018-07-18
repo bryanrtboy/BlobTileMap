@@ -507,7 +507,7 @@ MonoBehaviour:
   m_obstaclePrefab: {fileID: 1813760156847528, guid: 48caf0910a8e84bfc8f06a0d8f12bba5,
     type: 2}
   m_obstacleCount: 100
-  ruleTile: {fileID: 11400000, guid: 01488722acb734a0d91ea33da85596c6, type: 2}
+  ruleTile: {fileID: 11400000, guid: b2f84e66a5337c541ad85c2b6fac913e, type: 2}
 --- !u!114 &1416627437
 MonoBehaviour:
   m_ObjectHideFlags: 0
