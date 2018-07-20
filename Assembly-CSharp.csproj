@@ -54,10 +54,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Blobs\Scripts\BWEffect.cs" />
+     <Compile Include="Assets\Blobs\Scripts\Generate2DTileMap.cs" />
      <Compile Include="Assets\Blobs\Scripts\Generate3DColliders.cs" />
      <Compile Include="Assets\Blobs\Scripts\PickRandomDestinationTile.cs" />
      <Compile Include="Assets\Blobs\Scripts\RandomTiles.cs" />
-     <Compile Include="Assets\Blobs\Scripts\RuledTileMaker.cs" />
      <Compile Include="Assets\Blobs\Scripts\Spawner.cs" />
      <Compile Include="Assets\Blobs\Scripts\WebCamReader.cs" />
      <Compile Include="Assets\Tilemap\Rule Tiles\Scripts\RuleTile.cs" />

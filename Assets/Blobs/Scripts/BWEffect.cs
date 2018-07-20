@@ -33,7 +33,7 @@ public class BWEffect : MonoBehaviour
     public RenderTexture m_source;
     [Tooltip("The Rendertexture used by the Material visible to the MainCamera")]
     public RenderTexture m_destination;
-    public RuledTileMaker m_tileMaker;
+    public Generate2DTileMap m_tileMaker;
 
     private Material m_material;
 
